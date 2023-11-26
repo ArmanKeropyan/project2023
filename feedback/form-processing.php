@@ -32,12 +32,12 @@ const HAS_SEND_EMAIL = true;
 // добавить ли прикреплённые файлы в тело письма в виде ссылок
 const HAS_ATTACH_IN_BODY = true;
 const EMAIL_SETTINGS = [
-  'addresses' => [''], // кому необходимо отправить письмо
-  'from' => [''], // от какого email и имени необходимо отправить письмо
+  'addresses' => ['arman.keropyan.98@mail.ru'], // кому необходимо отправить письмо
+  'from' => ['arman.keropyan.98@mail.ru', 'arman'], // от какого email и имени необходимо отправить письмо
   'subject' => 'Сообщение с формы обратной связи', // тема письма
   'host' => 'ssl://smtp.mail.ru', // SMTP-хост
-  'username' => '', // SMTP-пользователь
-  'password' => '', // SMTP-пароль
+  'username' => 'arman.keropyan.98@mail.ru', // SMTP-пользователь
+  'password' => 'W6RFhvjNaiaYgdgFmpaY', // SMTP-пароль
   'port' => '465' // SMTP-порт
 ];
 const HAS_SEND_NOTIFICATION = false;
